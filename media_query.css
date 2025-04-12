@@ -1,0 +1,54 @@
+@media  screen and (min-width:320px) and (max-width:450px){
+    
+ 
+    body, html{
+        max-width: 450px;
+        
+    }
+    #logo{
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    
+    #conteinr{
+        max-width: 427px;
+        min-width: 310px;
+    }
+    #texto h1{
+        font-size: 30px;
+        max-width: 375px;
+        min-width: 200px;
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    }
+    #texto h2{
+        font-size: 16px;
+        max-width: 375px;
+        min-width: 200px;
+        margin: auto;
+    }
+    #formulario{
+        max-width: 400px;
+        min-width: 300px;
+        margin: auto;
+    }
+    .items_formulario {
+        flex-direction: column;
+        
+    }
+    .items_formulario input{
+        width: 340px;
+
+    }
+    textarea{
+        max-width: 340px;
+        min-width: 260px;
+        display: block;
+    }
+    #bt_enviar{
+        max-width: 340px;
+        min-width: 260px;
+
+    }
+}
