@@ -24,13 +24,11 @@
     }
     #texto h2{
         font-size: 16px;
-        max-width: 375px;
-        min-width: 200px;
+        width: 90%;
         margin: auto;
     }
     #formulario{
-        max-width: 400px;
-        min-width: 300px;
+        width: 90%;
         margin: auto;
     }
     .items_formulario {
@@ -38,17 +36,15 @@
         
     }
     .items_formulario input{
-        width: 340px;
+        width: 100%;
 
     }
     textarea{
-        max-width: 340px;
-        min-width: 260px;
+        width: 100%;
         display: block;
     }
     #bt_enviar{
-        max-width: 340px;
-        min-width: 260px;
+        width: 100%;
 
     }
 }
